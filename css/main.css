@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	background-color: rgba(0, 0, 0, .5);
+	font-size: 2.5em;
+	margin: .25em 7.5em;
+	font-weight: lighter;
+}
+
+h2.section-title {
+	color: white;
+	text-transform: uppercase;
+	font-weight: lighter;
+	line-height: 1.25em;
+	font-size: 2.5em;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-size: 1.25em;
+	color: white;
+}
+
+hr {
+	width: 3.25%;
+	height: 1px;
+	border: none;
+	background-color: white;
+	margin: 0 0 1.5em 0;
+}
+
+p {
+	color: white;
+	font-size: 1.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	border: 1px solid white;
+	background-color: transparent;
+	text-transform: uppercase;
+	padding: 1em 2.5em;
+	color: white;
+	cursor: pointer;
+	transition: .25s;
+	margin: 2.5em 0 0 0;
+}
+
+button:hover {
+	text-decoration: underline;
+	background-color: rgba(255, 255, 255, .25);
+}
+
+.wrapper {
+	width: 75%;
+	margin: .25em auto;
+}
+
+.block {
+	padding: 5em 0;
+}
+
+.bc-clr {
+	background-color: #4bcaff;
+}
+
+.bc-gray {
+	background-color: #515f67;
+}
+
+.items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.item {
+	margin: .5em 2.5em .5em 0;
+}
+
+.title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	background-color: rgba(0, 0, 0, .75);
+	padding: 1.5em 0;
+}
+
+header .header-logo .logo {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	font-size: 1.5em;
+}
+
+header .header-logo .logo span {
+	color: #4bcaff;
+}
+
+header .main-menu a {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	padding: .5em .75em;
+	margin: .5em;
+	transition: .25s;
+	font-size: 1em;
+}
+
+header .main-menu a:hover {
+	color: #4bcaff;
+}
+
+footer {
+	padding: 5em 0;
+	background-color: #353f47;
+	text-align: center;
+}
+
+footer a {
+	color: #c3c3c3;
+	text-transform: uppercase;
+	font-size: 1em;
+	border-right: 1px solid #c3c3c3;
+	padding: 0 .75em;
+}
+
+footer a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+footer a:last-child {
+	border-right: none;
+}

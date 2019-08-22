@@ -1,0 +1,215 @@
+.preview {
+	background-image: url(../i/bckgrnd-1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 25em 0 20em 0;
+}
+
+.preview p {
+	text-align: center;
+	text-transform: uppercase;
+	background-color: rgba(0, 0, 0, .5);
+	font-size: 2.5em;
+	font-weight: lighter;
+	margin: .25em 7.5em;
+}
+
+.services .item:last-child {
+	margin: .5em 0;
+}
+
+.services img {
+	margin: .5em 0;
+}
+
+.services p {
+	font-size: .8em;
+	margin: .5em 0;
+}
+
+.slider .slider-dots {
+	display: flex;
+	justify-content: space-between;
+}
+
+.slider .slider-dots .dot {
+	color: #515f67;
+	border: 2px solid transparent;
+	padding: 1em;
+	margin: 2.5em 1em;
+	font-size: 1.25em;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.slider .slider-dots .dot:hover {
+	border-color: #4bcaff;
+	transition: .25s;
+}
+
+.slider .slider-dots .dot-active {
+	border-color: #4bcaff;
+	color: #4bcaff;
+	transition: .25s;
+}
+
+.slider .slider-item {
+	display: flex;
+	justify-content: space-between;
+	animation: fadeIn 1s linear;
+}
+
+.slider-item img {
+	width: 23.25%;
+	margin: .25em;
+	transition: .5s;
+}
+
+.slider .slider-item img:hover {
+	opacity: .5;
+}
+
+.movie .item:first-child {
+	margin: .5em 2.5em .5em 0;
+}
+
+.movie .item:last-child {
+	margin: .5em 0;
+}
+
+.movie p {
+	font-size: 1em;
+}
+
+.movie .img-hidden {
+	overflow: hidden;
+}
+
+.movie img {
+	width: 500px;
+	height: 300px;
+	transition: .5s;
+}
+
+.movie img:hover {
+	transform: scale(1.05);
+}
+
+.twitter a {
+	color: #515f67;
+	font-weight: bold;
+}
+
+.twitter a:hover {
+	text-decoration: underline;
+}
+
+.who-is {
+	background-image: url(../i/bckgrnd-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.who-is p {
+	font-size: 1em;
+}
+
+.who-is .social {
+	margin-top: 2.25em;
+}
+
+.who-is .social img {
+	border: 3px solid white;
+	transition: .25s;
+}
+
+.who-is .social img:hover {
+	background-color: rgba(255, 255, 255, .25);
+}
+
+.portfolio h2,
+.testimotials h2,
+.testimotials p {
+	color: #515f67;
+}
+
+.portfolio hr,
+.testimotials hr {
+	background-color: #515f67;
+}
+
+.testimotials p {
+	margin-bottom: 1em;
+}
+
+.testimotials span {
+	color: #4bcaff;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.contact {
+	background-image: url(../i/bckgrnd-3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.contact .form-group {
+	margin: 1em 0;
+}
+
+.contact form label {
+	text-transform: uppercase;
+	color: white;
+	display: block;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+	border: 1px solid white;
+	background-color: transparent;
+	padding: .5em;
+	font-size: 1.25em;
+	margin: .5em 0;
+	color: white;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"] {
+	width: 20em;
+}
+
+.contact form textarea {
+	width: 100%;
+	height: 10em;
+	resize: none;
+}
+
+.contact form input[type="submit"] {
+	background-color: #4bcaff;
+	color: white;
+	border: none;
+	padding: .5em 3.5em;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	opacity: 1;
+	cursor: pointer;
+	transition: .25s;
+}
+
+.contact form input[type="submit"]:hover {
+	opacity: .9;
+}
+
+.contact .item:last-child {
+	margin: .5em 0 .5em 7.5em;
+}
+
+.contact p {
+	font-size: 1em;
+}
